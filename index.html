@@ -8,6 +8,29 @@
 <body>
 
   <h1>User Feedback</h1>
-  
+
+  <form id="feedback-form">
+    <label>
+      Name:
+      <input type="text" id="name" placeholder="Enter your name">
+    </label>
+    <small class="tooltip">Firstname and Lastname.</small>
+
+    <label>
+      Email:
+      <input type="email" id="email" placeholder="Enter your email">
+    </label>
+    <small class="tooltip">Please enter your email.</small>
+
+    <label>
+      Comments:
+      <textarea id="comments" placeholder="Write your feedback..."></textarea>
+    </label>
+    <small class="tooltip">Tell us what you think!</small>
+
+    <p id="char-count">0 characters</p>
+    <button type="submit">Submit</button>
+  </form>
+
 </body>
 </html>
