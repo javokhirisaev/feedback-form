@@ -59,3 +59,34 @@ button:hover {
   background: #4a7bd7;
 }
 
+.tooltip {
+  display: none;
+  color: #777;
+  font-size: 0.85em;
+  margin-top: 4px;
+}
+
+#char-count {
+  text-align: right;
+  font-size: 0.9em;
+  color: #555;
+  margin-top: 5px;
+}
+
+#feedback-display {
+  margin: 40px auto 0;
+  width: 350px;
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+}
+
+.feedback-entry {
+  border-bottom: 1px solid #eee;
+  padding: 10px 0;
+}
+
+.feedback-entry:last-child {
+  border-bottom: none;
+}
