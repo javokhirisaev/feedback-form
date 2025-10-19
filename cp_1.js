@@ -19,3 +19,9 @@ form.addEventListener('mouseout', e => {
     }
   }
 });
+
+const comments = document.getElementById('comments');
+comments.addEventListener('input', () => {
+  charCount.textContent = `${comments.value.length} characters`;
+});
+
