@@ -9,3 +9,53 @@ h1 {
   text-align: center;
   color: #222;
 }
+
+form {
+  background: #fff;
+  padding: 25px;
+  border-radius: 10px;
+  width: 350px;
+  margin: 0 auto;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+}
+
+label {
+  display: block;
+  margin-top: 15px;
+  font-weight: bold;
+}
+
+input,
+textarea {
+  width: 100%;
+  margin-top: 6px;
+  padding: 10px 12px; /* even padding on both sides */
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  transition: border-color 0.3s ease;
+  box-sizing: border-box; /* keeps width consistent */
+}
+
+input:focus,
+textarea:focus {
+  border-color: #5b8def;
+  outline: none;
+}
+
+button {
+  margin-top: 20px;
+  padding: 10px;
+  width: 100%;
+  background: #5b8def;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background: #4a7bd7;
+}
+
